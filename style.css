@@ -1,0 +1,36 @@
+body {
+  background: #b8e5e5;
+  font-family: arial;
+  text-align: center;
+}
+
+h1 {
+  color: #151515;
+  font-size: 32px;
+  background: #b8e5e5;
+  font-family: arial;
+  margin: 2px;
+}
+h2, h3, h4 {
+  font-size: 24px;
+  background: #b8e5e5;
+  font-family: arial;
+}
+
+p, ul, ol {
+  font-size: 18px;
+}
+h4, ul, ol {
+  text-align: left;
+}
+img {
+  width: 300px;
+  object-fit: cover;
+}
+a:hover {
+  color: blue;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
