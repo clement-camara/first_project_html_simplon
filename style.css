@@ -6,6 +6,10 @@ body {
   background: #b8e5e5;
   font-family: arial;
   text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h1 {
