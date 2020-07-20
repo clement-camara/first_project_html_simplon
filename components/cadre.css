@@ -1,0 +1,17 @@
+.cadre {
+    background: #99b898;
+    border: 3px solid #99b898;
+    margin: 20px 100px;
+    padding: 30px 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+div {
+    display: block;
+}
+
+img {
+  border-radius: 10px;
+  margin-left : 60px
+}
