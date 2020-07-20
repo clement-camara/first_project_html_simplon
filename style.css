@@ -2,6 +2,10 @@ body {
   background: #b8e5e5;
   font-family: arial;
   text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -33,4 +37,25 @@ a:hover {
 
 a, a:hover {
   text-decoration: none;
+}
+
+.div-top {
+  border: 8px dotted #FFFFFF;
+  border-radius: 20px;
+  margin: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.div-centre {
+  border: 10px solid #FFFFFF;
+  border-radius: 20px;
+  margin: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  padding-top: 0px;
 }
