@@ -1,13 +1,14 @@
 @import url("components/footer.css");
 @import url("components/form.css");
+@import url("components/navbar.css");
 
 
 body {
-  background: #b8e5e5;
+  background: rgb(225,222,222);
   font-family: arial;
   text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
+/*  padding-left: 100px;*/
+  /*padding-right: 100px;*/
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -15,13 +16,13 @@ body {
 h1 {
   color: #151515;
   font-size: 40px;
-  background: #b8e5e5;
+  background: rgb(225,222,222);
   font-family: 'Cookie', cursive;
   margin: 2px;
 }
 h2, h3, h4 {
   font-size: 30px;
-  background: #b8e5e5;
+  background: rgb(225,222,222);
   font-family: 'Cookie', cursive;
 }
 
@@ -41,5 +42,10 @@ a:hover {
 
 a, a:hover {
   text-decoration: none;
+}
+
+.padding {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
