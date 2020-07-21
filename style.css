@@ -22,7 +22,7 @@ h1 {
   font-family: 'Cookie', cursive;
   margin: 2px;
 }
-h2, h3, h4 {
+h2, h3, h4, h5 {
   font-size: 30px;
   background: rgb(225,222,222);
   font-family: 'Cookie', cursive;
@@ -32,7 +32,7 @@ p, ul, ol {
   font-size: 18px;
 }
 h4, ul, ol {
-  text-align: left;
+  text-align: center;
 }
 img {
   width: 300px;
@@ -51,9 +51,17 @@ a, a:hover {
   padding-right: 100px;
 }
 
+.margin {
+  display: flex;
+  margin-left: 100px
+  margin-bottom: 100px;
+}
+
 .btn-success {
     color: #fff;
     background-color: rgb(253,206,171);
     border-color: rgb(253,206,171);
 }
+
+
 
