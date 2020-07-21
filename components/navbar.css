@@ -29,6 +29,8 @@
     line-height: 65px;
     text-align: center;
     background-color: rgb(253,206,171);
+    box-shadow: 5px 5px 10px grey;
+    top: 0;
 }
 
 .nav div.logo{
@@ -151,8 +153,8 @@
 
 .home{
     width: 100%;
-    height: 20vh;
-    background-color: #ddd;
+    height: 15vh;
+    /*background-color: #ddd;*/
 }
 
 
