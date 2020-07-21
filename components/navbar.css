@@ -29,6 +29,8 @@
     line-height: 65px;
     text-align: center;
     background-color: rgb(253,206,171);
+    box-shadow: 5px 5px 10px grey;
+
 }
 
 .nav div.logo{
