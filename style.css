@@ -3,10 +3,11 @@
 @import url("components/navbar.css");
 @import url("components/cadre.css");
 @import url("components/modal.css");
+@import url("components/banner.css");
 
 
 body {
-  background: rgb(225,222,222);
+ /* background: rgb(225,222,222);*/
   font-family: arial;
   text-align: center;
 /*  padding-left: 100px;*/
@@ -18,13 +19,15 @@ body {
 h1 {
   color: #151515;
   font-size: 40px;
-  background: rgb(225,222,222);
+/*  background: rgb(225,222,222);*/
   font-family: 'Cookie', cursive;
   margin: 2px;
+
+
 }
 h2, h3, h4, h5 {
   font-size: 30px;
-  background: rgb(225,222,222);
+  /*background: rgb(225,222,222);*/
   font-family: 'Cookie', cursive;
 }
 
