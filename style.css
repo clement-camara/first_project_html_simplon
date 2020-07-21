@@ -7,7 +7,6 @@
 
 
 body {
- /* background: rgb(225,222,222);*/
   font-family: arial;
   text-align: center;
 /*  padding-left: 100px;*/
@@ -19,7 +18,6 @@ body {
 h1 {
   color: #151515;
   font-size: 40px;
-/*  background: rgb(225,222,222);*/
   font-family: 'Cookie', cursive;
   margin: 2px;
 
@@ -29,12 +27,13 @@ h2, h3, h4, h5 {
   font-size: 30px;
   /*background: rgb(225,222,222);*/
   font-family: 'Cookie', cursive;
+  text-align: center;
 }
 
 p, ul, ol {
   font-size: 18px;
 }
-h4, ul, ol {
+ul, ol {
   text-align: center;
 }
 img {
@@ -53,6 +52,11 @@ a, a:hover {
   padding-left: 100px;
   padding-right: 100px;
 }
+.margin {
+  display: flex;
+  margin-left: 100px
+  margin-bottom: 100px;
+}
 
 .margin {
   display: flex;
@@ -61,10 +65,45 @@ a, a:hover {
 }
 
 .btn-success {
-    color: #fff;
-    background-color: rgb(253,206,171);
-    border-color: rgb(253,206,171);
+  color: #fff;
+  background-color: rgb(253,206,171);
+  border-color: rgb(253,206,171);
+  font-size: 18px;
+  margin-top: -7px;
 }
+
+
+.typeform-widget {
+  width: 40%;
+  height: 300px;
+  float: left;
+}
+.flexbox {
+  background: #99b898;
+  border: 3px solid #99b898;
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+}
+
+.maps {
+  height: auto;
+  width: 40%;
+  margin: 20px;
+}
+
+.video {
+  height: auto;
+  width: 40%;
+  margin: 20px;
+}
+.column {
+  column-count: 2;
+}
+
 
 
 
