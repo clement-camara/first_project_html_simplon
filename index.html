@@ -19,17 +19,110 @@
       </div>
       <div class="main_list" id="mainListDiv">
           <ul>
+
               <li><a href="#redirect-ville">VILLE</a></li>
               <li><a href="#redirect-sandwich">CHOIX</a></li>
               <li><a href="#redirect-food">INGREDIENTS</a></li>
               <li><a href="#"></a></li>
-              <li><button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">CONTACT</button></li>
+              <li><button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">CONTACT</button></li>   
           </ul>
         </div>
     </div>
 </nav>
 
+
 <!-- Modal -->
+
+<section class="home"></section>
+
+<!-- METTRE LE TEMPLATE TYPEFORM -->
+
+<body>
+<h1 id="redirect-sandwich">Trouvez le sandwich de nos vos rêves</h1>
+<div class="cadre">
+    <!-- <p>Nos sandwich</p> -->
+    <img src="https://images.unsplash.com/photo-1485451456034-3f9391c6f769?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="production">
+    <img src="https://images.unsplash.com/photo-1521390188846-e2a3a97453a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="production">
+    <img src="https://images.unsplash.com/photo-1567234669003-dce7a7a88821?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="production">
+  </div>
+
+  <h2 id="redirect-ville">A l'endroit de vos rêves</h1>
+<div class="cadre">
+  <div class="margin">
+    <!-- <p>Nos sandwich</p> -->
+    <img src="https://images.unsplash.com/photo-1586987177718-54e088c798b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="production">
+    <img src="https://images.unsplash.com/photo-1590826443637-7507b565923d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" class="production">
+    <img src="https://images.unsplash.com/photo-1547468710-8199d8e29624?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="production">
+    </div>
+  </div>
+
+<div class="padding">
+  <!-- <div class="div-top">
+    <h2>Bougez pas, on va vous aider!</h2>
+    <img src="https://raw.githubusercontent.com/clement-camara/first_project_html_simplon/master/coding.jpg" alt="coding" width="200px">
+    <br><small>(image tirée de <a href="siteici">ce site</a> en free)</small><br>
+    <h3>Hey, salut!</h3>
+    <p>Alors vous aussi vous voulez cuisiner vos propres <strong>muffins</strong>, mais qu'ils ne soient <i>vraiment pas bons</i>? Vous voulez dégouter vos enfants, petits-enfants, ami·e·s, collègues, et tous les gens qui viennent sans arrêt vous demander de faire des gâteaux? <b>Pas de problèmes!</b> Nous sommes là pour vous aider! Grâce à nos idées vraiment géniales, vous allez pouvoir réaliser des patisseries immangeables en moins de temps qu'il ne faut pour le dire.<br>
+    <i>Bisous</i>.
+    </p>
+  </div> -->
+
+    <div class="div-centre">
+    <h3>Que des produits frais dans nos sandwichs</h4>
+      <div class="cadre">
+    <ul>
+      <li>Mozzarella</li>
+      <li>Tomate du potager</li>
+      <li>Huile d'olive bio des landes</li>
+      <li>Chipolatas de Porc de la Ferme</li>
+      <li>Chair à Saucisse de Porc de la Ferme</li>
+      <li>Merguez de Porc de la Ferme</li>
+    </ul>
+    </div>
+
+    <h4>Un choix de pain artisanaux</h4>
+    <div class="cadre">
+    <ol>
+      <li>Le pita de chez Nolito</li>
+      <li>Le pita naan de chez Nana</li>
+      <li>La tortilla de Katarina</li>
+      <li>Le ciabatta de Francesca</li>
+      <li>Le muffin anglais de James</li>
+      <li>Le kaiser de Sigmund</li>
+      <li>Le bagel d'Angele</li>
+      <li>Le croissant de Rolan</li>
+      <li>Le pain à burger de chez Jagger</li>
+    </ol>
+  </div>
+    <h5>Comment faire une focacia</h4>
+    <iframe width="480" height="270" src="https://www.youtube.com/embed/h7Dq9m4tggE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+  </div>
+    <p><a href="mailto:formationkebab@passimplon.org">n'hésitez pas à nous contacter par mail</a></p><br>
+</div>
+</div>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("nav-scroll").style.top = "0";
+  } else {
+    document.getElementById("nav-scroll").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+<!-- <div class="typeform-widget" data-url="https://form.typeform.com/to/iI0t1lEa" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=iI0t1lEa&utm_source=typeform.com-01EDP9W50ES5Y26TM8Q1T3T8NE-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div> -->
+</body>
+
+<!-- Button trigger modal -->
+<!--   <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+    Contact
+  </button> -->
+
+  <!-- Modal -->
+
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -129,10 +222,12 @@ var currentScrollPos = window.pageYOffset;
     <a href="#"><i class="fab fa-linkedin"></i></a>
   </div>
   <a class="typeform-share button" href="https://form.typeform.com/to/T2TOuYzZ" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#E26D5A;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Donnez votre avis! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
   <div class="footer-copyright">
   ©2020 Deborah et Clement. All rights reserved.
   </div>
 </div>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
