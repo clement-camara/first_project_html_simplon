@@ -58,11 +58,7 @@ a, a:hover {
   margin-bottom: 100px;
 }
 
-.margin {
-  display: flex;
-  margin-left: 100px
-  margin-bottom: 100px;
-}
+
 
 .btn-success {
   color: #fff;
